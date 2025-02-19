@@ -1,6 +1,6 @@
 import AbstractView from '../framework/view/abstract-view.js';
 
-function createEvenListEmptyTemplate() {
+function createEventListEmptyTemplate() {
   return `
     <div class="page-body__container">
         <section class="trip-events">
@@ -20,8 +20,8 @@ function createEvenListEmptyTemplate() {
   `;
 }
 
-export default class EvenListEmptyView extends AbstractView {
+export default class EventListEmptyView extends AbstractView {
   get template(){
-    return createEvenListEmptyTemplate();
+    return createEventListEmptyTemplate();
   }
 }
